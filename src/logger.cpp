@@ -8,7 +8,7 @@ using std::string, std::cout, std::endl;
 void addReading(const std::string& label, double value,
                 std::string labels[], double values[],
                 int& size, int capacity){
-    // TODO: throw "Full" if size == capacity, else insert and ++size
+    // TODO: throw "Full" if size == capacity, else insert and ++size 
 		if(size == capacity){
 		throw string("Full");
 		}
