@@ -32,7 +32,7 @@ void printReading(const std::string& label, const double& value){
 
 double average(const double values[], int size){
     // TODO: throw "Empty" if size==0, else compute average
-	double avg = 0;
+	double avg = 0.0;
 
 	if(size == 0){
 		throw std::string("Empty");
